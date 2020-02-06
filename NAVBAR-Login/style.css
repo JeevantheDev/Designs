@@ -39,7 +39,7 @@ body{
         color: #33cabb;     
     }
     .navbar .form-inline {
-        display: inline-block;
+        display: contents;
     }
     .navbar .nav li {
         position: relative;
@@ -235,6 +235,13 @@ body{
     .modal-trigger {
 
 }
+.input-group-addon{
+  left: 261px;
+    top: 24px;
+}
+.form-control{
+  top: 15px;
+}
 
 .modal{
   display:none;
@@ -322,6 +329,7 @@ a {
   text-decoration: none;
   margin: 15px 0;
 }
+
 
 button {
   border-radius: 20px;
